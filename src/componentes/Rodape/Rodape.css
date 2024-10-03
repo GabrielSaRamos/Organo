@@ -1,0 +1,27 @@
+.footer{
+    background-image: url(/public/imagens/fundo.png);
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #6278F7;
+    gap: 30px;
+}
+
+.footer .footer_icons img{
+    max-width: 100%;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0,3 all;
+}
+
+.footer .footer_logo img{
+    max-width: 100%;
+}
+
+.footer .footer_subtitle{
+        font-size: 18px;
+        font-weight: bold;
+
+}
